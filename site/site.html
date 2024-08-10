@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+   <head>
+<title>Site</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="stylesite.css">
+   </head> 
+<body>
+  
+  <div class="main">
+    <div class="navbar">
+        <div class="icon">
+           <h2 class="logo">Index</h2>
+        </div> 
+        <div class="menu">
+          <ul>
+            <li><a href="/site.html">HOME</a></li>
+            <li>
+              <a href="/service.html">SERVICE</a> 
+              <ul class="dropdown">
+                <li><a href="#">Courses</a></li>
+                <li><a href="#">Create</a></li>
+              </ul>
+            </li>
+            <li><a href="/about.html">ABOUT</a></li>
+            <li><a href="/blog.html">BLOG</a></li>
+            <li><a href="/contact.html">CONTACT</a></li>
+
+          </ul>
+
+        </div>
+        
+    </div>
+    <div class="content">
+      <h1> Web Development with<br><span>HTML CSS </span><br>&<span>WordPress</span> </h1>
+      <p class="par">At our core, we are passionate about crafting visually appealing and user-friendly<br> 
+        websites that meet the unique needs of our clients. Our team of skilled developers <br>
+        and designers works tirelessly to ensure that every website we create is not only <br>
+        aesthetically pleasing but also fully responsive and optimized for performance.</p>
+         <button class="cn" onclick="openForm()">JOIN OUR NEWSLETTER</button>
+         <div class="form-popup" id="myForm">
+          <form class="form-container">
+            <h1>Login</h1>
+            <input type="text" placeholder="Enter Email" name="email" required>
+            <button type="submit" class="btn" onclick="openForm">Join</button>
+            <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+          </form>
+        </div>
+
+
+          <div class="form">
+            <h2>Login Here</h2>
+            <input type="email" name="email" placeholder="Enter Email">
+            <input type="password" name="password" placeholder="Enter Password">
+            <button class="btnlog"><a href="#"><strong>Login</a></button> 
+            <h2 class="or">OR</h2>
+            <button type="button" class="login-with-google-btn"><a href="#">Sign in with Google</a></button>
+            
+            <p class="link">Don't have an account</p><br>
+            <a href="#">Sign up here</a>
+
+          </div>
+
+    </div>
+  </div>
+
+
+<script src="/javasite.js"></script>
+</body>
+</html>
